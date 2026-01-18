@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className="flex items-center justify-center gap-6 mb-12 px-4">
+    <header className="flex items-center justify-center gap-6 mb-12 px-4 py-6 bg-gray-100 rounded-xl">
       <div className="flex-shrink-0">
         <Image
           src="/icon.png"
