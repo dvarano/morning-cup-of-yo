@@ -44,6 +44,7 @@ next-env.d.ts
 # images
 /cropped/
 /curated/
+!curated/README.md
 *.png
 !public/*.png
 
