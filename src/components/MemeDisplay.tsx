@@ -6,7 +6,7 @@ import { supabase } from '@/lib/supabase';
 import { getLocalDateString, getRandomMemeIndex } from '@/lib/daily-selector';
 import { getTodaysMeme, setTodaysMeme } from '@/lib/storage';
 
-const TOTAL_MEMES = 10;
+const TOTAL_MEMES = 16;
 
 export default function MemeDisplay() {
   const [imageUrl, setImageUrl] = useState<string | null>(null);
